@@ -1,0 +1,19 @@
+
+dn: ou=interne,o=ma-racine
+objectclass: top
+objectclass: organizationalUnit
+ou: interne
+
+dn: uid=SSY,ou=interne,o=ma-racine
+uid: SSY
+aci: Sous systeme Y
+objectClass: top
+objectClass: soussysteme
+navigateur: FF
+
+dn: uid=SSY1,ou=interne,o=ma-racine
+uid: SSY1
+aci: Sous systeme Y1
+objectClass: top
+objectClass: soussysteme
+navigateur: IE
